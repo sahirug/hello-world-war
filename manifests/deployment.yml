@@ -12,7 +12,7 @@ spec:
   template:
     metadata:
       labels:
-        hello-world-war
+        app: hello-world-war
     spec:
       containers:
       - name: hello-world
